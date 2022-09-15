@@ -13,4 +13,14 @@ main {
 
     padding: 2rem;
     background-color: #FFFFFF;
+
+    z-index: 10;
+}
+
+.colours-grid {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
